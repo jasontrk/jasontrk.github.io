@@ -1696,7 +1696,6 @@
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
 		color: #ffffff;
 		text-decoration: none;
 	}
@@ -2373,11 +2372,14 @@
 			padding: 0;
 		}
 
+
 			ul.contact li {
 				text-decoration: none;
 				margin: 2.5em 0 0 0;
 				padding: 0 0 0 3.25em;
 				position: relative;
+				display: inline;
+    float: left;
 			}
 
 				ul.contact li:before {
@@ -3314,7 +3316,7 @@
 			-moz-transform: scaleY(-1) scaleX(-1);
 			-webkit-transform: scaleY(-1) scaleX(-1);
 			-ms-transform: scaleY(-1) scaleX(-1);
-			transform: scaleY(-1) scaleX(-1);
+			transform: scaleY(-1);
 		}
 
 		.wrapper .inner {
@@ -3386,13 +3388,13 @@
 				flex-direction: row;
 			}
 
-			.wrapper.spotlight .image {
+			/*.wrapper.spotlight .image {
 				border-radius: 100%;
 				margin: 0 3em 2em 0;
 				width: 22em;
 				overflow: hidden;
 				-ms-flex: 1;
-			}
+			}*/
 
 				.wrapper.spotlight .image img {
 					border-radius: 100%;
@@ -3590,7 +3592,7 @@
 		#footer .inner .copyright {
 			border-top: solid 2px rgba(255, 255, 255, 0.125);
 			list-style: none;
-			margin: 4em 0 2em 0;
+			/*margin: 4em 0 2em 0;*/
 			padding: 2em 0 0 0;
 			width: 100%;
 		}
