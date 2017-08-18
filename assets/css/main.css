@@ -3168,7 +3168,7 @@
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 5em 2em 4.25em 2em ;
+				padding: 10em 2em 15.25em 2em ;
 				margin-bottom: -2.5em;
 			}
 
@@ -3716,6 +3716,12 @@ div.skillz {
 	}
 
 	@media screen and (max-width: 640px) {
+
+
+		#banner {
+			padding: 30em 2em 0.25em 2em ;
+			margin-bottom: -2.5em;
+		}
 
 		#footer .inner .copyright li {
 			border-left: 0;
