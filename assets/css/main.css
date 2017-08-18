@@ -3199,7 +3199,17 @@
 		}
 
 /* Wrapper */
+i.tech {
+  font-size: 4em;
+  margin: 10px;
 
+}
+
+div.skillz {
+  text-align: center;
+  margin-bottom: 35px;
+	margin-left: 35px;
+}
 	#wrapper > header {
 		padding: 11em 0 2.25em 0 ;
 	}
